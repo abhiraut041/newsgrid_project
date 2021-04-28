@@ -132,6 +132,10 @@ h1, h2, h3, h4, h5, h6 {
 .p-2 { padding: 2rem }
 .p-3 { padding: 4rem }
 
+.l-heading {
+    font-size: 3rem;
+}
+
 .list li {
     padding: 0.5rem 0;
     border-bottom: #555 dotted 1px;
@@ -247,6 +251,20 @@ h1, h2, h3, h4, h5, h6 {
     grid-column: 2 / span 2;
     gap: 1rem;
 }
+
+/* Article Meta Styling */
+#article .meta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 0.5rem 0.8rem;
+}
+#article .meta .category {
+    margin-top: 0.4rem;
+}
+
 
 /* Footer Styling */
 #main-footer {
