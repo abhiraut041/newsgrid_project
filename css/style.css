@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color) !important;
 }
 
-/* Inner Page Container */
+/* About Page :Inner Page Container */
 .page-container {
     display: grid;
     grid-template-columns: 5fr 2fr;
